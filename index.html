@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        html,body{
+            height: 100%;
+            padding: 0px;
+            margin: 0px;;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .center{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height:100%
+        }
+        .head ul{
+            list-style-type: none;
+            margin: 10px;
+            padding: 0px;
+            text-align: end;
+        }
+        .head li{
+            display: inline;
+            margin: 10px;
+        }
+        .panel{
+            background-image: url('//ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+            background-position: -140px -45px;
+            background-size: 528px 68px;
+        }
+        input{
+            border-radius: 15px;
+            height: 30px;
+            border-width: 1px;
+            border-color: #e7e7e7;
+        }
+        button{
+            border-radius: 5px;
+            background-color: #e7e7e7;
+            border-width: 0px;
+            padding: 5px 10px;
+        }
+        footer li{
+            padding: 10px;
+        }
+        footer ul ul li{
+            padding: 0px;
+            padding-right: 10px;
+        }
+        footer ul{
+            list-style-type: none;
+            background-color: #e7e7e7;
+            padding-left: 20px;
+        }
+        footer ul ul{
+            padding-left: 0px;
+        }
+        footer ul li ul li{
+            display: inline;
+        }
+        footer ul li ul li ul{
+            display: inline;
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <ul>
+            <li>gmail</li>
+            <li>picture</li>
+            <li><a class="panel" role="button" tabindex="0">. .</a></li>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="main">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" style="padding:15px;">
+            <input type="text" placeholder="  Search Google or type URL" size="50" style="margin: 20px;">
+            <div class="btn">
+                <button type="button" >Search</button>
+                <button type="button">Quick Search</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <ul>
+        <li>English</li>
+        <li>
+            <ul>
+                <li>Ads</li>
+                <li>Business</li>
+                <li>About</li>
+                <li>How Search work?</li>
+                <li>
+                    <ul>
+                        <li>asd</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</footer>
